@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:divider="@drawable/share_line"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/tv" />
+
+    <Switch
+        android:id="@+id/switch_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ijk播放内核(默认)"
+        android:padding="10dp"
+        android:textColor="#333"
+        android:textSize="16sp" />
+
+    <Switch
+        android:id="@+id/switch_exo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXO2播放内核"
+        android:padding="10dp"
+        android:textColor="#333"
+        android:textSize="16sp" />
+
+    <Switch
+        android:id="@+id/switch_sys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统播放器"
+        android:padding="10dp"
+        android:textColor="#333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="本地视频播放"
+        android:textColor="#333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="v1.0.0"
+        android:textColor="#333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="QQ:1066537317"
+        android:textColor="#333"
+        android:textSize="16sp" />
+</LinearLayout>
